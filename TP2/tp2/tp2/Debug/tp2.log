@@ -1,0 +1,4 @@
+﻿  Date.cpp
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\TP2\Date.cpp(54,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\TP2\Date.cpp(56,19): warning C4018: '>': signed/unsigned mismatch
+  tp2.vcxproj -> C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\TP2\tp2\Debug\tp2.exe

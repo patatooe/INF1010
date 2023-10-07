@@ -1,0 +1,23 @@
+﻿  Equipe.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1968,1): error C2678: binary '=': no operator found which takes a left-hand operand of type 'const std::shared_ptr<Joueur>' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(1642,17): message : could be 'std::shared_ptr<Joueur> &std::shared_ptr<Joueur>::operator =(std::shared_ptr<Joueur> &&) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(1631,17): message : or       'std::shared_ptr<Joueur> &std::shared_ptr<Joueur>::operator =(const std::shared_ptr<Joueur> &) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(1648,17): message : or       'std::shared_ptr<Joueur> &std::shared_ptr<Joueur>::operator =<Joueur>(std::shared_ptr<Joueur> &&) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\memory(1637,17): message : or       'std::shared_ptr<Joueur> &std::shared_ptr<Joueur>::operator =<Joueur>(const std::shared_ptr<Joueur> &) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1968,1): message : while trying to match the argument list '(const std::shared_ptr<Joueur>, const std::shared_ptr<Joueur>)'
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\Testing\test\test\Equipe.cpp(108): message : see reference to function template instantiation '_FwdIt std::remove_if<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,Equipe::-::<lambda_bb23e6c87cd6ace32d1824d3c605a88d>>(_FwdIt,const _FwdIt,_Pr)' being compiled
+          with
+          [
+              _FwdIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::shared_ptr<Joueur>>>>,
+              _Ty=std::shared_ptr<Joueur>,
+              _Pr=Equipe::-::<lambda_bb23e6c87cd6ace32d1824d3c605a88d>
+          ]
+  Test.cpp
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\Testing\test\test\Test.cpp(51,20): warning C4018: '<': signed/unsigned mismatch
+  Tournoi.cpp
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\Testing\test\test\Tournoi.cpp(50,16): error C2039: 'merge': is not a member of 'std::multiset<std::shared_ptr<Match>,FoncteurComparerParDate<Match>,std::allocator<std::shared_ptr<Match>>>'
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\Testing\test\test\Tournoi.h(28): message : see declaration of 'std::multiset<std::shared_ptr<Match>,FoncteurComparerParDate<Match>,std::allocator<std::shared_ptr<Match>>>'
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\Testing\test\test\Tournoi.cpp(60,17): error C2039: 'merge': is not a member of 'std::multiset<std::shared_ptr<Match>,FoncteurComparerParDate<Match>,std::allocator<std::shared_ptr<Match>>>'
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\Testing\test\test\Tournoi.h(28): message : see declaration of 'std::multiset<std::shared_ptr<Match>,FoncteurComparerParDate<Match>,std::allocator<std::shared_ptr<Match>>>'
+  Generating Code...
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\Testing\test\test\Tournoi.h(43): error C4716: 'Tournoi::getEquipes<FoncteurComparerParNom<Equipe> >': must return a value

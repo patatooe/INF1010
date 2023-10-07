@@ -1,0 +1,13 @@
+﻿  Equipe.cpp
+  Match.cpp
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\TP4\FichiersTP4\foncteurs.h(16,15): warning C4505: 'fRand': unreferenced function with internal linkage has been removed
+  Test.cpp
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\TP4\FichiersTP4\Test.cpp(51,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\TP4\FichiersTP4\foncteurs.h(16,15): warning C4505: 'fRand': unreferenced function with internal linkage has been removed
+  Tournoi.cpp
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\TP4\FichiersTP4\Tournoi.cpp(57,65): warning C4100: 'date': unreferenced formal parameter
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\TP4\FichiersTP4\foncteurs.h(16,15): warning C4505: 'fRand': unreferenced function with internal linkage has been removed
+  main.cpp
+C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\TP4\FichiersTP4\foncteurs.h(16,15): warning C4505: 'fRand': unreferenced function with internal linkage has been removed
+  Generating Code...
+  tp4.vcxproj -> C:\Users\patri_814ozi1\Desktop\Poly Fall 2022\INF1010\TP\TP4\tp4\Debug\tp4.exe
